@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>FlexBox</title>
+    </head>
+    <body style="padding-bottom: 500px;">
+        <style>
+            p {
+                font-family: Arial, Helvetica, sans-serif;
+                line-height: 8px;
+            }
+        </style>
+        <div style="
+            display: flex;
+            flex-direction: row;
+            ">
+            <div style="background-color: lightblue;">div 1 text</div>
+            <div style="background-color: pink;">div 2 <p>arroz</p></div>
+        </div>
+
+        <div style="
+            display: flex;
+            flex-direction: row;
+            margin-top: 30px;
+            ">
+            <div style="
+            background-color: lightblue;
+            width: 100px;
+            ">div 1 text</div>
+            <div style="
+            background-color: pink;
+            flex: 1;
+            ">flex 1</div>
+        </div>
+
+        <div style="
+            display: flex;
+            flex-direction: row;
+            margin-top: 30px;
+            ">
+            <div style="
+            background-color: lightblue;
+            flex: 1;
+            ">flex 1</div>
+            <div style="
+            background-color: pink;
+            width: 100px;
+            ">width 100</div>
+            <div style="
+            background-color: lightblue;
+            flex: 2;
+            ">flex 2</div>
+        </div>
+
+
+        <div style="
+            height: 70px;
+            border-width: 1px;
+            border-style: solid;
+            border-color: gray;
+            display: flex;
+            flex-direction: row;
+            margin-top: 30px;
+            justify-content: center;
+            ">
+            <div style="
+            background-color: lightblue;
+            width: 100px;
+            ">100px</div>
+            <div style="
+            background-color: pink;
+            width: 100px;
+            ">100px</div>
+            <div style="
+            background-color: lightblue;
+            width: 100px;
+            ">100px</div>
+        </div>
+
+        <div style="
+            height: 70px;
+            border-width: 1px;
+            border-style: solid;
+            border-color: gray;
+            display: flex;
+            flex-direction: row;
+            margin-top: 30px;
+            justify-content: space-between;
+            ">
+            <div style="
+            background-color: lightblue;
+            width: 100px;
+            ">100px</div>
+            <div style="
+            background-color: pink;
+            width: 100px;
+            ">100px</div>
+            <div style="
+            background-color: lightblue;
+            width: 100px;
+            ">100px</div>
+        </div>
+
+
+        <div style="
+            height: 70px;
+            border-width: 1px;
+            border-style: solid;
+            border-color: gray;
+            display: flex;
+            flex-direction: row;
+            margin-top: 30px;
+            justify-content: space-between;
+            align-items: center;
+            ">
+            <div style="
+            background-color: lightblue;
+            width: 100px;
+            ">100px</div>
+            <div style="
+            background-color: pink;
+            width: 100px;
+            ">100px</div>
+            <div style="
+            background-color: lightblue;
+            width: 100px;
+            ">100px</div>
+        </div>
+
+        <div style="
+        display: flex;
+        flex-direction: row;
+        ">
+            <div style="background-color: lightblue;
+            width: 200px;
+            ">
+            200px</div>
+            <div style="background-color: pink;
+            width: 75px;
+            ">75px
+            </div>
+        </div>
+
+        <div style="
+        display: flex;
+        flex-direction: row;
+        margin-top: 20px;
+        ">
+            <div style="background-color: lightblue;
+            width: 50px;
+            ">
+            item1
+            </div>
+            <div style="background-color: pink;
+            width: 50px;
+            flex: 1;
+            ">item2
+            </div>
+            <div style="background-color: lightblue;
+            width: 75px;">
+            item3
+            </div>
+        </div>
+
+        <div style="
+        display: flex;
+        flex-direction: row;
+        margin-top: 20px;
+        justify-content: space-between;
+        ">
+            <div style="background-color: lightblue;
+            width: 50px;
+            ">
+            item1
+            </div>
+            <div style="background-color: pink;
+            width: 75px;
+            ">item2
+            </div>
+            <div style="background-color: lightblue;
+            width: 75px;">
+            item3
+            </div>
+            <div style="background-color: pink;
+            width: 75px;
+            ">item2
+            </div>
+        </div>
+
+        <div style="
+        display: flex;
+        flex-direction: row;
+        margin-top: 20px;
+        justify-content: space-between;
+        border-width: 1px;
+        border-style: solid;
+        border-color: gray;
+        height: 50px;
+        align-items: center;
+        ">
+            <div style="background-color: lightblue;
+            width: 50px;
+            ">
+            item1
+            </div>
+            <div style="background-color: pink;
+            width: 75px;
+            ">item2
+            </div>
+        </div>
+
+        <div>
+            <div style="
+                display: flex;
+                flex-direction: row;
+                margin-top: 20px;
+                align-items: center;
+                ">
+                <div style="
+                margin-right: 15px;
+                ">
+                    <img style="border-radius: 50px;" src="media/icons/channel-1.jpeg">
+                </div>
+
+                <div style="
+                margin-right: 100px;
+                ">
+                <p style="font-weight: bold;
+                ">oliver</p>
+                <p style="color: gray"
+                >the cat</p>
+                <p style="color: gray;
+                font-size: 13px;">Popular</p>
+                </div>
+
+                <div style="
+                display: flex;
+                align-items: center;
+                ">  
+                    <button style="
+                    background-color: rgb(64, 147, 234);
+                    border: none;
+                    border-radius: 5px;
+                    width: 70px;
+                    height: 35px;
+                    color: white;
+                    font-size: 15px;
+
+                    ">Follow</button>
+                </div>
+            </div>
+            <div>
+                <div style="
+                    display: flex;
+                    flex-direction: row;
+                    margin-top: 20px;
+                    align-items: center;
+                    ">
+                    <div style="
+                    margin-right: 15px;
+                    ">
+                        <img style="border-radius: 50px;" src="media/icons/channel-1.jpeg">
+                    </div>
+    
+                    <div style="
+                    margin-right: 100px;
+                    ">
+                    <p style="font-weight: bold;
+                    ">oliver</p>
+                    <p style="color: gray"
+                    >the cat</p>
+                    <p style="color: gray;
+                    font-size: 13px;">Popular</p>
+                    </div>
+    
+                    <div style="
+                    display: flex;
+                    align-items: center;
+                    ">  
+                        <button style="
+                        background-color: rgb(64, 147, 234);
+                        border: none;
+                        border-radius: 5px;
+                        width: 70px;
+                        height: 35px;
+                        color: white;
+                        font-size: 15px;
+    
+                        ">Follow</button>
+                    </div>
+                </div>
+                <div>
+                    <div style="
+                        display: flex;
+                        flex-direction: row;
+                        margin-top: 20px;
+                        align-items: center;
+                        ">
+                        <div style="
+                        margin-right: 15px;
+                        ">
+                            <img style="border-radius: 50px;" src="media/icons/channel-1.jpeg">
+                        </div>
+        
+                        <div style="
+                        margin-right: 100px;
+                        ">
+                        <p style="font-weight: bold;
+                        ">oliver</p>
+                        <p style="color: gray"
+                        >the cat</p>
+                        <p style="color: gray;
+                        font-size: 13px;">Popular</p>
+                        </div>
+        
+                        <div style="
+                        display: flex;
+                        align-items: center;
+                        ">  
+                            <button style="
+                            background-color: rgb(64, 147, 234);
+                            border: none;
+                            border-radius: 5px;
+                            width: 70px;
+                            height: 35px;
+                            color: white;
+                            font-size: 15px;
+        
+                            ">Follow</button>
+                        </div>
+                    </div>
+        </div>
+    </body>
+</html>
