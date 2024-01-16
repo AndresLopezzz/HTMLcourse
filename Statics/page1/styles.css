@@ -1,0 +1,76 @@
+@font-face {
+  font-family: "SF-PRO-REGULAR";
+  src: url(./media/sf-pro-display-cufonfonts/SFPRODISPLAYREGULAR.OTF);
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  background-color: rgb(0, 0, 0);
+  font-family: "Arial, Helvetica, sans-serif";
+  font-weight: 400;
+  font-size: 0.8rem;
+  background-image: url(media/hero_iphone15pro__i70z9oz3hj2i_medium.jpg);
+  background-size: 100%;
+  font-family: no-repeat;
+}
+
+.header {
+  color: rgb(174, 174, 175);
+  padding-bottom: 7px;
+  align-items: center;
+}
+.extends {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  background-color: rgb(23, 23, 24);
+}
+
+#text,
+#mac-text {
+  cursor: pointer;
+  padding: 5px;
+  height: 34px;
+  display: flex;
+  align-items: center;
+  font-family: "SF-PRO-REGULAR";
+  transition: color 0.7s ease-out;
+}
+#text:hover,
+#mac-text:hover {
+  color: rgba(255, 255, 255, 0.966);
+}
+
+.showtext {
+  margin-top: 0px;
+  background-color: rgb(23, 23, 24);
+  opacity: 0;
+  transition: opacity 300ms;
+  font-family: "SF-PRO-REGULAR";
+}
+
+.showtext .izq-items a {
+  color: white;
+  text-decoration: none;
+  font-size: 20px;
+  margin-top: 7px;
+  font-weight: bold;
+  margin-bottom: 2px;
+}
+
+.extras-izq {
+  margin-top: 7px;
+  margin-bottom: 2px;
+}
+.extras.izq .extras-izq-top {
+  margin-bottom: 2px;
+}
+
+.izq-items {
+  display: flex;
+  flex-direction: column;
+  align-items: self-start;
+  padding-left: 20px;
+}
